@@ -86,3 +86,9 @@ p {
     color: white;
     text-align:center;
 }
+
+img {
+  margin: auto;
+display: block;
+  width: 50%;
+}
