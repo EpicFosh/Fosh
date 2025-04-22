@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html>
+
+    <link href="style.css" rel="stylesheet"/>
+
+    <style>
+    
+    body { background: #5c5c5c;
+        background: linear-gradient(180deg,rgba(92, 92, 92, 1) 0%, rgba(237, 139, 40, 1) 50%);
+          background-repeat: no-repeat;
+          min-height: 100vh;
+          margin: 0;
+    }
+    
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background: #4d4c4c;
+        background: linear-gradient(180deg, rgba(77, 76, 76, 1) 0%, rgba(217, 127, 37, 1) 50%);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #d4d4d4;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color:#666666;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+    }
+
+    .openbtn:hover {
+        background-color:#4e4e4e;
+    }
+  
+    </style>
+
+    <script src="script.js"></script>
+
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>DragonForce's "The Power Within" Album Cover MC Pixel Art</title>
+        
+        <link rel="icon" href="images/icon.ico">
+
+    </head>
+
+
+    <body>
+
+
+        <div id="Sidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="favorite_songs.html">Favorite Songs</a>
+            <a href="discord.html">Discord Server</a>
+            <a href="art.html">Art</a>
+            <a href="fosh_songs.html">Music</a>
+            <a href="changelog.html">Changelog</a>
+        </div>
+
+
+        <div id="main">
+
+        <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>  
+
+        <h1>DragonForce's "The Power Within" Album Cover MC Pixel Art</h1>
+        
+        <p>This is part of the <a href="mc_pixel_art_collection.html"style=color:#2dc2e0;>Minecraft Pixel Art collection.</a></p>
+        <p>This was made on March 18th, 2025 using the Joy of Painting mod for Minecraft using the basic dye colors. Also used a image to MC block converter and copied the block colors from that.</p>
+        <p>It is not great.</p>
+        <img src="Art/The Pixel Within (MC).png" style="width:25%">
+
+
+
+    </div>
+
+    </body>
+
+</html>

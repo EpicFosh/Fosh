@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+    <link href="style.css" rel="stylesheet"/>
+
+    <style>
+    
+    body { background: #f7db02;
+        background: linear-gradient(180deg, #f7db02 0%, #d96f04 50%);
+          background-repeat: no-repeat;
+          min-height: 100vh;
+          margin: 0;
+    }
+    
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background: #e6cb00;
+        background: linear-gradient(180deg, rgba(230, 203, 0, 1) 0%, rgba(196, 99, 2, 1) 50%);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #d4d4d4;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color:#e8d60e;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+    }
+
+    .openbtn:hover {
+        background-color:#d4c410;
+    }
+  
+    </style>
+
+    <script src="script.js"></script>
+
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>DragonForce's "Sonic Firestorm" Album Cover Pixel Art</title>
+        
+        <link rel="icon" href="images/icon.ico">
+
+    </head>
+
+
+    <body>
+
+
+        <div id="Sidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="favorite_songs.html">Favorite Songs</a>
+            <a href="discord.html">Discord Server</a>
+            <a href="art.html">Art</a>
+            <a href="fosh_songs.html">Music</a>
+            <a href="changelog.html">Changelog</a>
+        </div>
+
+
+        <div id="main">
+
+        <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>  
+
+        <h1>DragonForce's "Sonic Firestorm" Album Cover Pixel Art</h1>
+        
+        <p>This is part of the <a href="pixel_art_collection.html"style=color:#147285;>Pixel Art collection.</a></p>
+        <p>This was made on March 9th, 2025. Also used a image to MC block converter and copied the block colors from that.</p>
+        <img src="Art/Pixel Firestorm.png" style="width:25%">
+
+
+
+    </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+    <link href="style.css" rel="stylesheet"/>
+
+    <style>
+    
+        body { background: #ff8682;
+            background: linear-gradient(180deg, rgba(255, 134, 130, 1) 0%, rgba(219, 201, 0, 1) 100%);
+              background-repeat: no-repeat;
+              min-height: 100vh;
+              margin: 0;
+        }
+        
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background: #e87c79;
+            background: linear-gradient(180deg, rgba(232, 124, 121, 1) 0%, rgba(204, 187, 0, 1) 100%);
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+    
+        .sidebar a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #6e624d;
+            display: block;
+            transition: 0.3s;
+        }
+    
+        .openbtn {
+            font-size: 20px;
+            cursor: pointer;
+            background-color:#bf5f5c;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+        }
+    
+        .openbtn:hover {
+            background-color:#a1504d;
+        }
+      
+        </style>
+
+    <script src="script.js"></script>
+
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Darknx & Moticon</title>
+        
+        <link rel="icon" href="images/icon.ico">
+
+    </head>
+
+
+    <body>
+
+
+        <div id="Sidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="favorite_songs.html">Favorite Songs</a>
+            <a href="discord.html">Discord Server</a>
+            <a href="art.html">Art</a>
+            <a href="fosh_songs.html">Music</a>
+            <a href="changelog.html">Changelog</a>
+        </div>
+
+
+        <div id="main">
+
+        <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>  
+
+        <h1>Darknx & Moticon</h1>
+        
+        <p>This is part of the <a href="digital_art_collection.html"style=color:#147285;>Digital Art collection.</a></p>
+        <p>This was made on April 1st, 2025.</p>
+        <img src="Art/Dark and Moticon.png"style="width:25%">
+
+
+
+    </div>
+
+    </body>
+
+</html>

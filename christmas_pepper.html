@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html>
+
+    <link href="style.css" rel="stylesheet"/>
+
+    <style>
+    
+        body { background: #ff9900;
+            background: linear-gradient(180deg, rgba(255, 153, 0, 1) 0%, rgba(141, 237, 126, 1) 100%);
+              background-repeat: no-repeat;
+              min-height: 100vh;
+              margin: 0;
+        }
+        
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background: #e08700;
+            background: linear-gradient(180deg, rgba(224, 135, 0, 1) 0%, rgba(122, 207, 109, 1) 100%);
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+    
+        .sidebar a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #d4d4d4;
+            display: block;
+            transition: 0.3s;
+        }
+    
+        .openbtn {
+            font-size: 20px;
+            cursor: pointer;
+            background-color:#eb9500;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+        }
+    
+        .openbtn:hover {
+            background-color:#d88900;
+        }
+      
+        </style>
+
+    <script src="script.js"></script>
+
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Christmas Pepper</title>
+        
+        <link rel="icon" href="images/icon.ico">
+
+    </head>
+
+
+    <body>
+
+
+        <div id="Sidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="favorite_songs.html">Favorite Songs</a>
+            <a href="discord.html">Discord Server</a>
+            <a href="art.html">Art</a>
+            <a href="fosh_songs.html">Music</a>
+            <a href="changelog.html">Changelog</a>
+        </div>
+
+
+        <div id="main">
+
+        <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>  
+
+        <h1>Christmas Pepper</h1>
+        
+        <p>This is part of the <a href="digital_art_collection.html"style=color:#147285;>Digital Art collection.</a></p>
+        <p>This was made on December 24th, 2024. The outline is from DougDoug's server 2024 Christmas art event and the white parts were removed using a background remover. The eyes and mouth were not part of the template.</p>
+        <img src="Art/Christmas Pepper.webp" style="width:25%">
+
+
+
+    </div>
+
+    </body>
+
+</html>

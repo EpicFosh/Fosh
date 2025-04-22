@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+    <link href="style.css" rel="stylesheet"/>
+
+    <style>
+    
+    body { background: #64cc64;
+        background: linear-gradient(180deg, rgba(100, 204, 100, 1) 0%, rgba(105, 65, 25, 1) 50%);
+          background-repeat: no-repeat;
+          min-height: 100vh;
+          margin: 0;
+    }
+    
+    .sidebar {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background: #64cc64;
+        background: linear-gradient(180deg, rgb(90, 184, 90) 0%, rgb(78, 49, 19) 50%);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+
+    .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #d4d4d4;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color:#50b31e;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+    }
+
+    .openbtn:hover {
+        background-color:#469c1a;
+    }
+  
+    </style>
+
+    <script src="script.js"></script>
+
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>MC Pixel Art Collection</title>
+        
+        <link rel="icon" href="images/icon.ico">
+
+    </head>
+
+
+    <body>
+
+
+        <div id="Sidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="favorite_songs.html">Favorite Songs</a>
+            <a href="discord.html">Discord Server</a>
+            <a href="art.html">Art</a>
+            <a href="fosh_songs.html">Music</a>
+            <a href="changelog.html">Changelog</a>
+        </div>
+
+
+        <div id="main">
+
+        <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>  
+        
+        <h1>MC Pixel Art Collection</h1>
+
+        <h2><a href="miku_mc.html"style=color:#147285;>Hatsune Miku</a></h2>
+
+        <h2><a href="mc_rtl.html"style=color:#147285;>Metallica's "Ride The Lightning" Album Cover</a></h2>
+
+        <h2><a href="mc_sf.html"style=color:#147285;>DragonForce's "Sonic Firestorm" Album Cover</a></h2>
+
+        <h2><a href="mc_rii.html"style=color:#147285;>DragonForce's "Reaching Into Infinity" Album Cover</a></h2>
+
+        <h2><a href="mc_tpw.html"style=color:#147285;>DragonForce's "The Power Within" Album Cover</a></h2>
+        
+    </div>
+
+    </body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+
+    <link href="style.css" rel="stylesheet"/>
+
+    <style>
+    
+        body { background: #b59767;
+            background: linear-gradient(180deg, rgba(181, 151, 103, 1) 0%, rgba(71, 58, 34, 1) 100%);
+              background-repeat: no-repeat;
+              min-height: 100vh;
+              margin: 0;
+        }
+        
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background: #9e855c;
+            background: linear-gradient(180deg, rgba(158, 133, 92, 1) 0%, rgba(46, 38, 22, 1) 100%);
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+    
+        .sidebar a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #6e624d;
+            display: block;
+            transition: 0.3s;
+        }
+    
+        .openbtn {
+            font-size: 20px;
+            cursor: pointer;
+            background-color:#6e624d;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+        }
+    
+        .openbtn:hover {
+            background-color:#584f3f;
+        }
+      
+        </style>
+
+    <script src="script.js"></script>
+
+    <head>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Zidget</title>
+        
+        <link rel="icon" href="images/icon.ico">
+
+    </head>
+
+
+    <body>
+
+
+        <div id="Sidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="favorite_songs.html">Favorite Songs</a>
+            <a href="discord.html">Discord Server</a>
+            <a href="art.html">Art</a>
+            <a href="fosh_songs.html">Music</a>
+        </div>
+
+
+        <div id="main">
+
+        <button class="openbtn" onclick="openNav()">☰ Open Sidebar</button>  
+
+        <h1>Zidget</h1>
+        
+        <p>This is part of the <a href="digital_art_collection.html"style=color:#147285;>Digital Art collection.</a></p>
+        <p>This was made on March 31st, 2025.</p>
+        <img src="Art/Zidget.jpg"style="width:25%">
+
+
+
+    </div>
+
+    </body>
+
+</html>
